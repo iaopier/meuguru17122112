@@ -42,6 +42,8 @@ public:
             int qtd,
             float valor);
 
+    Celular(){
+    }
     /**
      * @brief Implementa a sobrecarga do operador logico menor que ('<').
      * Utilizado na ordenacao dos objetos da classe.
@@ -51,6 +53,8 @@ public:
      * @return false Retorna false quando o objeto atual for 'maior' que o other
      */
     bool operator<(const Celular &other);
+
+    bool operator==(const Celular &other);
 
 private:
     static int id;

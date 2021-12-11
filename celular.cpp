@@ -29,3 +29,9 @@ bool Celular::operator<(const Celular& other) {
 
   return false;
 }
+
+bool Celular::operator==(const Celular &other) {
+    if(other.cod == this->cod)
+        return true;
+    return false;
+}
