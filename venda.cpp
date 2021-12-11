@@ -5,10 +5,7 @@
 #include <iostream>
 
 void Venda::adicionaCelular(const Celular& celular) {
-    int list_size = m_celulares.size();
-    if(list_size == 0){
         m_celulares.emplace_back(celular);
-    }
 }
 
 void Venda::ordena() {

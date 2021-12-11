@@ -1,7 +1,6 @@
 #include "celular.hpp"
 
-// TODO: Inicialize aqui sua variavel estatica. Caso tenha optado por essa
-// solucao.
+int Celular::id = 0;
 
 Celular::Celular(std::string pmodelo,
                  std::string pfabricante,
@@ -11,7 +10,7 @@ Celular::Celular(std::string pmodelo,
                  std::string pcor,
                  int pqtd,
                  float pvalor){
-                 this->modelo = pmodelo;
+                 modelo = pmodelo;
                  fabricante = pfabricante;
                  armazenamento = parmazenamento;
                  memoria = pmemoria;
@@ -19,6 +18,8 @@ Celular::Celular(std::string pmodelo,
                  cor = pcor;
                  qtd = pqtd;
                  valor = pvalor;
+                 cod = Celular::id + 1;
+                 Celular::id = cod;
 }
 
 bool Celular::operator<(const Celular& other) {
