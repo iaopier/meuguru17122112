@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.21)
-project(meuguru17122112)
+project(atividade1)
 
 set(CMAKE_CXX_STANDARD 14)
 
 include_directories(.)
 
-add_executable(meuguru17122112
+add_executable(atividade1
         celular.cpp
         celular.hpp
         main.cpp

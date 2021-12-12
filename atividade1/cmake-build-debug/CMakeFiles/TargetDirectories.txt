@@ -1,3 +1,3 @@
-/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/cmake-build-debug/CMakeFiles/meuguru17122112.dir
+/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug/CMakeFiles/atividade1.dir

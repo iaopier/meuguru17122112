@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/cmake-build-debug"
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -579,7 +579,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112"
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -819,7 +819,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "meuguru17122112"
+			"value" : "atividade1"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1102,6 +1102,78 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug"
+		},
+		{
+			"name" : "Project_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1"
+		},
+		{
+			"name" : "atividade1_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug"
+		},
+		{
+			"name" : "atividade1_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "atividade1_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1"
+		},
+		{
 			"name" : "meuguru17122112_BINARY_DIR",
 			"properties" : 
 			[
@@ -1111,7 +1183,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/cmake-build-debug"
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug"
 		},
 		{
 			"name" : "meuguru17122112_IS_TOP_LEVEL",
@@ -1135,7 +1207,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112"
+			"value" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1"
 		}
 	],
 	"kind" : "cache",

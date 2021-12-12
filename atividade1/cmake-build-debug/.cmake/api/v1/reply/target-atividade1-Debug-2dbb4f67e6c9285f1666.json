@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "meuguru17122112"
+			"path" : "atividade1"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/."
+					"path" : "/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/."
 				}
 			],
 			"language" : "CXX",
@@ -73,7 +73,7 @@
 			]
 		}
 	],
-	"id" : "meuguru17122112::@6890427a1f51a3e7e1df",
+	"id" : "atividade1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -89,8 +89,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "meuguru17122112",
-	"nameOnDisk" : "meuguru17122112",
+	"name" : "atividade1",
+	"nameOnDisk" : "atividade1",
 	"paths" : 
 	{
 		"build" : ".",

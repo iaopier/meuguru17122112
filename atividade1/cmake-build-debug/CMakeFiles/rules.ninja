@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: meuguru17122112
+# Project: atividade1
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -22,7 +22,7 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling CXX files.
 
-rule CXX_COMPILER__meuguru17122112_Debug
+rule CXX_COMPILER__atividade1_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = /usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -32,7 +32,7 @@ rule CXX_COMPILER__meuguru17122112_Debug
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__meuguru17122112_Debug
+rule CXX_EXECUTABLE_LINKER__atividade1_Debug
   command = $PRE_LINK && /usr/bin/c++ $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -42,7 +42,7 @@ rule CXX_EXECUTABLE_LINKER__meuguru17122112_Debug
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /home/piercarlo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112 -B/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/cmake-build-debug
+  command = /home/piercarlo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1 -B/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade1/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 

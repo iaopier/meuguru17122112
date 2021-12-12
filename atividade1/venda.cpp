@@ -60,8 +60,8 @@ void Venda::imprimeEstoque() const {
             celular.cor.copy(cor,sizeof celular.cor);
             cor[0] = toupper(cor[0]);
             std::cout << fabricante <<" " << celular.modelo << ","
-                      << celular.armazenamento << "," << celular.memoria << ","
-                      << celular.peso << "," << cor << ","
+                      << celular.armazenamento << "GB," << celular.memoria << "GB,"
+                      << celular.peso*1000 << " gramas," << cor << ","
                       << celular.qtd << " " << restantes << ", R$ " << celular.valor
                       << std::endl;
         }
