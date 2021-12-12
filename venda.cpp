@@ -67,15 +67,6 @@ void Venda::imprimeEstoque() const {
         }
 
     }
-    // TODO: Implemente este metodo.
-    /**
-     * Aqui voce tera que imprimir a lista de celulares em estoque com as
-     * restricoes descritas no enunciado do problema. Notem no exemplo que a
-     * primeira letra da cor do celular fica maiuscula. Outra coisa, se houver
-     * apenas um item em estoque de determinado modelo de celular, voce tera que
-     * imprimir '1 restante' e nao '1 restantes'. Por ultimo, apenas modelos de
-     * celulares com pelo menos um item em estoque deverao ser exibidos.
-     */
 }
 
 
