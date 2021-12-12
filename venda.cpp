@@ -1,19 +1,15 @@
 #include "venda.hpp"
 
-#include <cmath>
-#include <iomanip>
 #include <iostream>
-#include <cstring>
 #include <algorithm>
+#include <regex>
 
 void Venda::adicionaCelular(const Celular &celular) {
     m_celulares.emplace_back(celular);
 }
 
 void Venda::ordena() {
-    // TODO: Implemente este metodo
-    // Preste atencao no exemplo que a descricao utilizada na ordenacao considera
-    // a fabricante antes do modelo do celular
+    m_celulares.sort();
 }
 
 void Venda::recarregaEstoque(int cod, int qtd) {
@@ -39,7 +35,7 @@ void Venda::aplicaDesconto(const std::string &fabricante, float desconto) {
         fabricanteComparados.assign(fabricante);
         std::remove_if(fabricanteComparados.begin(), fabricanteComparados.end(), ::isspace);
         if(celular.fabricante.compare(fabricanteComparados) == 0){
-            celular.valor = celular.valor - desconto;
+            celular.valor = celular.valor - (celular.valor*desconto/100);
         }
     }
 }
@@ -52,7 +48,24 @@ void Venda::removeModelo(int cod) {
 
 void Venda::imprimeEstoque() const {
     for(auto &celular:m_celulares){
-        std::cout << celular.valor << celular.fabricante << std::endl;
+        if(celular.qtd != 0){
+            std::string restantes;
+            if(celular.qtd > 1){
+                restantes = "restantes";
+            }else{
+                restantes = "restante";
+            }
+            std::string fabricante = std::regex_replace(celular.fabricante, std::regex("^ +| +$|( ) +"), "$1");
+            char cor[sizeof celular.cor] ={};
+            celular.cor.copy(cor,sizeof celular.cor);
+            cor[0] = toupper(cor[0]);
+            std::cout << fabricante <<" " << celular.modelo << ","
+                      << celular.armazenamento << "," << celular.memoria << ","
+                      << celular.peso << "," << cor << ","
+                      << celular.qtd << " " << restantes << ", R$ " << celular.valor
+                      << std::endl;
+        }
+
     }
     // TODO: Implemente este metodo.
     /**
@@ -64,3 +77,5 @@ void Venda::imprimeEstoque() const {
      * celulares com pelo menos um item em estoque deverao ser exibidos.
      */
 }
+
+

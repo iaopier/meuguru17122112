@@ -1,3 +1,4 @@
+#include <tuple>
 #include "celular.hpp"
 
 int Celular::id = 0;
@@ -23,11 +24,7 @@ Celular::Celular(std::string pmodelo,
 }
 
 bool Celular::operator<(const Celular& other) {
-  // TODO: Implemente este metodo.
-  // Preste atencao no exemplo que a descricao utilizada na ordenacao considera
-  // a fabricante antes do modelo do celular
-
-  return false;
+    return std::tie(other.fabricante,other.modelo) > std::tie(this->fabricante,this->modelo);
 }
 
 bool Celular::operator==(const Celular &other) {
