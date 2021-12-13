@@ -1,16 +1,14 @@
+#include <sstream>
 #include "pizza.hpp"
 
 std::string Pizza::descricao() const {
-  // TODO: Implemente este metodo.
-  /*
-   * Note que aqui voce deve retornar uma descricao detalhada da pizza.
-   *
-   * Exemplos:
-   * 2X Pizza Calabresa, 4 pedacos e borda recheada.
-   * 2X Pizza Calabresa, 4 pedacos sem borda recheada.
-   */
-   
-  return "";
+    std::ostringstream oss;
+    oss << this->m_qtd << "X Pizza " << this->sabor << ", " << this->pedacos << " pedacos";
+    if(this->borda_recheada)
+        oss << " e borda rechada." << std::endl;
+    else
+        oss << " sem borda rechada." << std::endl;
+  return oss.str();
 }
 
 Pizza::Pizza(const std::string& sabor,
@@ -18,5 +16,23 @@ Pizza::Pizza(const std::string& sabor,
              bool borda_recheada,
              int qtd,
              float valor_unitario) {
-  // TODO: Implemente este metodo.
+                this->sabor = sabor;
+                this->pedacos = pedacos;
+                this->borda_recheada = borda_recheada;
+                this->m_qtd = qtd;
+                this->m_valor_unitario = valor_unitario;
 }
+
+int Pizza::getQuantidade() const{
+    return this->m_qtd;
+}
+
+float Pizza::getValorUnidade() const{
+    return this->m_valor_unitario;
+}
+
+
+
+
+
+

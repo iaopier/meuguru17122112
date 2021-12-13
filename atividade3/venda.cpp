@@ -1,23 +1,28 @@
 #include "venda.hpp"
 
-#include <iomanip>
-
 Venda::~Venda() {
-  // TODO: Implemente este metodo
-  /**
-   * Aqui voce deve deletar os ponteiros contidos na lista m_pedidos
-   */
+    for(auto pedido: m_pedidos){
+        delete(pedido);
+    }
+
 }
 
 void Venda::adicionaPedido(Pedido* p) {
-  // TODO: Implemente este metodo
+    m_pedidos.emplace_back(p);
+
 }
 
 void Venda::imprimeRelatorio() const {
-  // TODO: Implemente este metodo
-  /**
-   * Aqui voce tem que percorrer a lista de todos os pedidos e imprimir o resumo
-   * de cada um. Por ultimo, devera ser exibido o total de venda e a quantidade
-   * de pedidos processados.
-   */
+    int contador = 0;
+    float total = 0.0;
+    for(auto pedido : this->m_pedidos){
+        std::cout << "Pedido " << contador + 1 << std::endl;
+        std::cout << pedido->resumo();
+        contador++;
+        total = total + pedido->calculaTotal();
+    }
+    std::cout << "Relatorio de vendas" << std::endl;
+    std::cout << "Total de Vendas: R$ " << total << std::endl;
+    std::cout << "Total de Pedidos: " << contador;
+
 }
