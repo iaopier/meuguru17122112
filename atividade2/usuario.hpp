@@ -51,13 +51,13 @@ class Usuario {
    * @brief Login do usuario
    *
    */
-  // TODO: declare aqui o login do usuario
+  std::string login;
 
   /**
    * @brief Password do usuario
    *
    */
-  // TODO: declare aqui o password do usuario
+  std::string password;
 };
 
 #endif
