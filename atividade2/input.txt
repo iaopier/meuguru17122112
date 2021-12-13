@@ -1,0 +1,14 @@
+insert
+sistemas.ufmg.br,aluno,esta_senha_e_forte
+insert
+linkedin.com,usuario_trabalhador,ninguem_conhece_essa_senha_porque_ela_e_muito_forte
+insert
+facebook.com,usuario_divertido,123456
+insert
+youtube.com,criador_de_conteudo,ninguem_descobre_esta_senha
+insert
+facebook.com,usuario_divertido,agora_essa_ninguem_adivinha
+update
+facebook.com,usuario_divertido,agora_sim
+remove
+sistemas.ufmg.br
