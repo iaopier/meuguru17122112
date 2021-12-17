@@ -1,0 +1,4 @@
+/home/piercarlo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/piercarlo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=gcc -G Ninja /home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade4
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade4/cmake-build-debug

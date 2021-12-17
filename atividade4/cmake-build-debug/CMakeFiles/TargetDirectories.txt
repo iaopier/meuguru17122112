@@ -1,0 +1,3 @@
+/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/piercarlo/Documents/MeuGuru/Atividade17-12-2021-12/meuguru17122112/atividade4/cmake-build-debug/CMakeFiles/atividade4.dir
